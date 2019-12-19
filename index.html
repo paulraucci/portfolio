@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- CSS -->
+    <!-- CSS/Bootstrap -->
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
     <!-- Font -->
     <link
       href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
@@ -20,8 +27,96 @@
     <title>Paul Raucci</title>
   </head>
   <body>
-    <div class="title">
-      <h1>Paul Raucci</h1>
+    <div class="container">
+      <div class="title">
+        <h1>Paul Raucci</h1>
+        <hr />
+      </div>
+      <div class="nav">
+        <nav>
+          <a
+            class="resume"
+            href="https://docs.google.com/document/d/1LyXKyJ1_li9Rs0EstIcLdx7j8_b7VX8WWA202rOwuFI/edit?usp=sharing"
+            >Resume</a
+          >
+        </nav>
+      </div>
+      <div class="brand">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+          laudantium ipsam aliquid earum est amet ducimus aperiam quisquam
+          inventore architecto ab distinctio, corporis quia perspiciatis alias
+          enim, assumenda sint nam.
+        </p>
+      </div>
+      <br />
+      <hr />
+      <div class="about">
+        <h3 class="aboutTitle">About me</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+          neque nam quibusdam sint? Doloribus architecto nam enim maiores vel
+          quas commodi blanditiis fugit in accusamus quasi, corrupti deserunt
+          dolore voluptatem?
+        </p>
+
+        <div class="skills">
+          <h3>Skills</h3>
+          <ul>
+            <div class="frontend">
+              <h5>Front-end:</h5>
+              <li>JavaScript</li>
+              <li>JQuery</li>
+              <li>AJAX</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>EJS</li>
+            </div>
+            <div class="backend">
+              <h5>Back-end:</h5>
+              <li>Ruby on Rails</li>
+              <li>Express</li>
+              <li>Node.js</li>
+              <li>API integration</li>
+              <li>RESTful Routing</li>
+            </div>
+            <div class="database">
+              <h5>Database:</h5>
+              <li>MongoDB</li>
+              <li>SQL</li>
+            </div>
+            <div class="misc"></div>
+            <h5>Miscellaneous</h5>
+            <li>Mac and PC platforms Proficient in Microsoft Office Suite</li>
+            <li>Effective verbal and written communication skills</li>
+            <li>
+              Strong analytical skills; detail oriented; self-starter able to
+              work both independently and with a team; resourceful, polished and
+              professional.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="resume">
+        <link />
+      </div> -->
+      <div class="projects">
+        <div class="project1">
+          <a href="http://www.hardwoodseason.surge.sh"> Hardwood Season</a>
+          <img src="./images/project1.png" />
+        </div>
+
+        <div class="project2">
+          <a href="https://pvdrehab.herokuapp.com/">PVD Rehab</a>
+          <img src="./images/project2.png" />
+        </div>
+
+        <div class="project3">
+          <a href="http://typical-pet.surge.sh/"> Restaurant Finder</a>
+          <img src="./images/project3.png" />
+        </div>
+      </div>
     </div>
   </body>
 </html>

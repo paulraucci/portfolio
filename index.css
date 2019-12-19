@@ -1,6 +1,40 @@
-body {
-  font-family: "Oswald", sans-serif;
+.container {
+  font-family: "Oswald", sans-serif !important;
+  display: block;
 }
 .title {
   text-align: center;
+}
+nav {
+  text-align: center;
+}
+.brand {
+  text-align: center;
+  height: 30px;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 10vh;
+}
+.aboutTitle {
+  text-align: center;
+}
+.about {
+  display: contents;
+  /* text-align: left; */
+  height: 30px;
+  width: 300px;
+}
+img {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 7px;
+  box-shadow: 5px 5px 10px grey;
+  margin: 75px;
+}
+.projects {
+  display: inline-flex;
+}
+a{
+  
 }
