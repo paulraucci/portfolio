@@ -102,21 +102,41 @@
         <link />
       </div> -->
       <div class="projects">
-        <div class="project1">
-          <a href="http://www.hardwoodseason.surge.sh"> Hardwood Season</a>
-          <img src="./images/project1.png" />
-        </div>
+        <table width="500" border="0" cellpadding="5">
 
-        <div class="project2">
-          <a href="https://pvdrehab.herokuapp.com/">PVD Rehab</a>
-          <img src="./images/project2.png" />
-        </div>
-
-        <div class="project3">
-          <a href="http://typical-pet.surge.sh/"> Restaurant Finder</a>
-          <img src="./images/project3.png" />
-        </div>
+          <tr>
+          
+          <td align="center" valign="center">
+            <a href="http://www.hardwoodseason.surge.sh"> Hardwood Season<a>
+            <img src="./images/project1.png" /> 
+            </td>
+             <br />
+          
+          <td align="center" valign="center">
+            <a href="https://pvdrehab.herokuapp.com/">PVD Rehab</a>
+            <img src="./images/project2.png" />
+        
+            <br />
+          </td>
+          <td align="center" valign="center">
+            <a href="http://typical-pet.surge.sh/"> Restaurant Finder</a>
+            <img src="./images/project3.png" />
+        
+            <br />
+          </td>
+          
+          </tr>
+          
+          </table>
+       
       </div>
     </div>
+    <script>
+      $(document).ready(function(){
+        $("#myBtn").click(function(){
+          $("#myModal").modal();
+        });
+      });
+      </script>
   </body>
 </html>
